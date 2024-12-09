@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.light-blue-class-container{
+    background-color: #E2F5FB;
+    width: 100%;
+}
+
+.heading {
+    color: #003569;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.con-1 {
+   width: 300px;
+   height: 250px;
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
+   justify-content: center;
+}
+
+.para1 {
+    color: #727272;
+}
+.head1 {
+color: #17414f;
+}
+
+
+.explore-btn-styling {
+    color: white;
+    background-color: #17414f;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+}
+
+
+.probiotics-image {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.probiotic-background-image {
+    background-color: #FFE9B5;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 105px;
+    height: 380px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+
+.section-3 {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 10px;
+}
+.section-3-logo {
+    width: 60px;
+    height: 60px;
+
+}
+
+.section-3-display-flex {
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+@media(min-width:500px){
+    .display-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.head {
+    color: #17414f;
+}
+.para {
+    color: #727272;
+}
+.sections{
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-section {
+    background-color: #17414f;
+    width: 97%;
+    padding: 20px;
+    
+}
+
+.image-styling1 {
+    width:435px;
+    height: 100px;
+    margin: 10px;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.logo-styling {
+    width: 313px;
+    height: 80px;
+}
+
+.paragraph-details {
+    color: white;
+    padding-right: 40px;
+    padding-left: 50px;
+    width: 400px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.last-container {
+    display: flex;
+    padding-left: 10px;
+}
+.para {
+    color: white;
+}
+.logo{
+    width:20px;
+    height: 20px;
+}
+
+@media(max-width:800px){
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.clinically-tested-logo {
+    width: 80px;
+    height: 80px;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.card-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #17414f;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50px;
+}
+
+@media(min-width:800px){
+    .card-display {
+        
+        margin-left: 140px;
+        margin-right: 140px;
+        border-radius: 50px;
+    }
+    
+}
+
+
+.bg-1-image {
+    background-image: url('images/vitaminC.png');
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bg-2-image {
+    background-image: url("images/VitaminB3.png");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bg-3-image{
+    background-image: url("images/Magnesium.png");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bg-4-image {
+    background-image: url("images/HyaluronicAcid.png");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bg-5-image {
+    background-image: url("images/Lactobacillus.png");
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    margin-left:20px;
+    
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.bg-image-n {
+    width: 500px;
+    height: 200px;
+}
+.random {
+    width: 100px;
+    height: 200px;
+}
+
+.section-ingredients {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.section-ingredients-heading {
+    color: #2D3F59;
+}
+.section-ingredients-paragraph {
+    color: #727272;
+}
+.section-ingredients-button {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #003569;
+    color: #003569;
+    background-color: transparent;
+    font-weight: bold;
+    width: 100px;
+    margin: 5px;
+}
+
+.better {
+    color:#17414F;
+}
+.container {
+    background-color: white;
+}
+
+.section-ourblog-container-1 {
+    background-image: url("/images/one.png");
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+
+
+
+
+.better {
+    color:#17414F;
+}
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-ourblog-container-1 {
+    background-image: url("/images/one.png");
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+.image-1-ourblog {
+    width: 350px;
+    height: 400px;
+}
+
+.image-2-ourblog {
+    width: 350px;
+    height: 200px;
+}
